@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity Awareness</title>
+<link rel="stylesheet" href="css/tharani.css">
+</head>
+<body>
+
+<header>
+    <h1>Cybersecurity Awareness</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tips">Security Tips</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Stay Safe Online! 🔐</h2>
+    <p>Every click counts. Be aware. Stay secure!</p>
+    <button onclick="showAlert()">Learn Basics</button>
+</section>
+
+<section id="tips">
+    <h2>Cybersecurity Tips 🛡️</h2>
+    <ul>
+        <li>✅ Use Strong & Unique Passwords</li>
+        <li>✅ Enable Two-Factor Authentication</li>
+        <li>✅ Beware of Phishing Emails & Fake Links</li>
+        <li>✅ Keep Software & Antivirus Updated</li>
+        <li>✅ Don’t Share Personal Info Online</li>
+        <li>✅ Use Secure Wi-Fi Networks</li>
+    </ul>
+</section>
+
+<section id="quiz">
+    <h2>Cybersecurity Quiz 🧠</h2>
+    <p>Test your knowledge!</p>
+
+    <p><b>Q1.</b> Is “123456” a strong password?</p>
+    <button onclick="checkAnswer(false)">Yes</button>
+    <button onclick="checkAnswer(true)">No</button>
+
+    <p><b>Q2.</b> Should you click unknown links?</p>
+    <button onclick="checkAnswer(false)">Yes</button>
+    <button onclick="checkAnswer(true)">No</button>
+
+    <p id="quizResult"></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us 📩</h2>
+    <p>Email: support@cyberaware.com</p>
+</section>
+
+<footer>
+    <p>© 2025 Cyber Awareness Initiative | Stay Safe Online</p>
+</footer>
+
+<script src="css/javascript/tharani.js"></script>
+</body>
+</html>
